@@ -18,7 +18,7 @@ DIRECT fortran code cannot be compiled with python3 f2py.
 On ubuntu 16 installation with allowed the compilation 
 
 ```bash
-sudo apt-get install python-numpy` to have a good numpy (and thus f2py) version
+sudo apt-get install python-numpy to have a good numpy (and thus f2py) version
 ```
 
 Note : f2py is no longer maintained. An alternate DIRECT implementation could be used
