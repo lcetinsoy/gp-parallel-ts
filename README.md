@@ -8,7 +8,22 @@ You can download the code from github
 $ git clone https://github.com/kirthevasank/gp-parallel-ts
 ```
 
+
 ### Installation & Getting Started
+
+Python 2 only ! 
+
+DIRECT fortran code cannot be compiled with python3 f2py. 
+
+On ubuntu 16 installation with allowed the compilation 
+
+```bash
+sudo apt-get install python-numpy` to have a good numpy (and thus f2py) version
+```
+
+Note : f2py is no longer maintained. An alternate DIRECT implementation could be used
+
+
 - Run `source set_up_thompson` to set up all environment variables.
 - You also need to build the direct fortran library. For this `cd` into
   `direct_fortran` and run `bash make_direct.sh`. You will need a fortran compiler
