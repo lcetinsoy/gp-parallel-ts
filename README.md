@@ -8,8 +8,14 @@ You can download the code from github
 $ git clone https://github.com/kirthevasank/gp-parallel-ts
 ```
 
-
 ### Installation & Getting Started
+
+#### Docker
+
+```bash
+docker build . -t gp-parallel
+docker run gp-parallel
+```
 
 Python 2 only ! 
 
@@ -21,6 +27,10 @@ a sucessful DIRECT fortran compilation
 ```bash
 sudo apt-get install python-numpy
 ```
+
+If you already have numpy the package f2py may be
+located here : 
+/usr/bin/f2py
 
 Note : f2py is no longer maintained. An alternate DIRECT implementation could be used
 
